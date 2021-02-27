@@ -1,8 +1,8 @@
 const fs = require('fs');
 const pdfparse = require('pdf-parse');
 
-const pdfFileName = 'PO71320289_MS Operate 2021.pdf';
-const searchFor = '$2,237,060.00 USD';
+const pdfFileName = ''; //'pdf file name'
+const searchFor = ''; // 'word'
 
 
 function render_page(pageData) {
